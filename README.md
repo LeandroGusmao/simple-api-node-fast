@@ -1,29 +1,37 @@
-Aplicação Node com Express e Sequelize - CRUD de Produtos
-Este é um projeto desenvolvido com o objetivo de estudar o desenvolvimento de uma API REST utilizando Node.js, Express e Sequelize, para realizar um CRUD (Create, Read, Update, Delete) de produtos em um banco de dados Postgresql.
+#Node.js Express Sequelize - Product CRUD API
 
-Requisitos
-Para executar este projeto em sua máquina, você precisa ter instalado:
+###This is a project developed for studying the development of a REST API using Node.js, Express, and Sequelize to perform CRUD (Create, Read, Update, Delete) operations for products in a Postgresql database.
 
-Node.js (versão 12 ou superior)
-NPM (gerenciador de pacotes do Node.js)
-Postgresql (ou outro banco de dados relacional compatível com Sequelize)
-Instalação
-Clone este repositório em sua máquina.
-Navegue até a pasta do projeto e execute o comando npm install para instalar as dependências.
-Crie um banco de dados Postgresql com o nome crud_produtos.
-Configure as informações de conexão com o banco de dados no arquivo config/database.js.
-Execute o comando npm run dev para iniciar o servidor local.
-Acesse a API em http://localhost:3000.
-Funcionalidades
-Cadastro de produtos (nome, preço e descrição)
-Visualização de todos os produtos cadastrados
-Visualização de um produto específico por ID
-Edição de produtos existentes por ID
-Exclusão de produtos do banco de dados por ID
-Tecnologias utilizadas
-Node.js
-Express
-Sequelize (ORM para banco de dados)
-Postgresql (banco de dados relacional)
-Considerações finais
-Este projeto foi desenvolvido apenas para fins de estudos e não deve ser utilizado em produção. O código fonte está disponível para referência e aprendizado. Caso deseje utilizar este projeto em um ambiente de produção, é recomendável realizar as devidas adaptações e testes necessários para garantir a segurança e confiabilidade da aplicação.
+##Requirements
+###To run this project on your machine, you need to have:
+
+• Node.js (version 12 or higher)
+• NPM (Node.js package manager)
+• Postgresql (or another relational database compatible with Sequelize)
+
+##Installation
+1. Clone this repository on your machine.
+2. Navigate to the project folder and run the command npm install to install the dependencies.
+3. Create a Postgresql database with the name crud_products.
+4. Configure the connection information to the database in the file config/database.js.
+5. Run the command npm run dev to start the local server.
+6. Access the API at http://localhost:3000.
+
+
+##Features
+• Product creation (name, price, and description)
+• List all products
+• Get a specific product by ID
+• Update existing products by ID
+• Delete products from the database by ID
+
+
+##Technologies Used
+• Node.js
+• Express
+• Sequelize (ORM for database)
+• Postgresql (relational database)
+
+
+##Final Considerations
+###This project was developed for study purposes only and should not be used in production. The source code is available for reference and learning. If you want to use this project in a production environment, it is recommended that you make the necessary adaptations and tests to ensure the security and reliability of the application.
