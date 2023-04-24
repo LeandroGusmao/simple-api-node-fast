@@ -6,7 +6,9 @@
 ### To run this project on your machine, you need to have:
 
 • Node.js (version 12 or higher)
+
 • NPM (Node.js package manager)
+
 • Postgresql (or another relational database compatible with Sequelize)
 
 ## Installation
@@ -20,16 +22,23 @@
 
 ## Features
 • Product creation (name, price, and description)
+
 • List all products
+
 • Get a specific product by ID
+
 • Update existing products by ID
+
 • Delete products from the database by ID
 
 
 ## Technologies Used
 • Node.js
+
 • Express
+
 • Sequelize (ORM for database)
+
 • Postgresql (relational database)
 
 
