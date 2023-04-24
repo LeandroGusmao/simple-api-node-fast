@@ -20,9 +20,13 @@
 
 ## Features
 • Product creation (name, price, and description)
+
 • List all products
+
 • Get a specific product by ID
+
 • Update existing products by ID
+
 • Delete products from the database by ID
 
 
