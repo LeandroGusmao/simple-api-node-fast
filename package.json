@@ -1,0 +1,26 @@
+{
+  "name": "simple-api-node-fast",
+  "version": "1.0.0",
+  "description": "• Node.js (version 12 or higher)\r • NPM (Node.js package manager)\r • Postgresql (or another relational database compatible with Sequelize)",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LeandroGusmao/simple-api-node-fast.git"
+  },
+  "author": "Leandro Gusmao",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LeandroGusmao/simple-api-node-fast/issues"
+  },
+  "homepage": "https://github.com/LeandroGusmao/simple-api-node-fast#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "sequelize": "^6.31.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
